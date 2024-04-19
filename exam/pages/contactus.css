@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.butn {
+    display: grid;
+}
+
+.but_one {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #373737;
+    color: white;
+    font-family: "Work Sans";
+}
+
+.but {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: "Work Sans";
+}
+
+header {
+    position: sticky;
+    background: transparent;
+    background-color: #ffffffc7;
+}
+
+header section ul li a {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 20px;
+    line-height: 27.72px;
+    align-items: center;
+}
+
+.inpe {
+    margin-top: 10px;
+}
+
+.inpt {
+    margin-top: 10px;
+}
+
+.es {
+    display: none;
+}
+
+.con {
+    color: #FF5300;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header section ul {
+    padding-top: 37px;
+    padding-bottom: 38px;
+    display: flex;
+    gap: 38px;
+}
+
+.fe {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inp {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 20px;
+    background-color: rgb(146, 245, 64);
+    width: 320px;
+    height: 60px;
+    box-shadow: 1px 3px 2px 1px black;
+    border: none;
+    border-radius: 5px;
+}
+
+.inpr {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 20px;
+    background-color: rgb(146, 245, 64);
+    width: 320px;
+    height: 60px;
+    box-shadow: 1px 3px 2px 1px black;
+    border: none;
+    border-radius: 5px;
+}
+
+.inpt {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 20px;
+    background-color: rgb(146, 245, 64);
+    width: 320px;
+    height: 60px;
+    box-shadow: 1px 3px 2px 1px black;
+    border: none;
+    border-radius: 5px;
+}
+
+.inpe {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 20px;
+    background-color: rgb(64, 245, 170);
+    width: 320px;
+    height: 60px;
+    box-shadow: 1px 3px 2px 1px black;
+    border: none;
+    border-radius: 5px;
+}
+
+.ipe {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 20px;
+    background-color: rgb(64, 245, 170);
+    width: 320px;
+    height: 60px;
+    box-shadow: 1px 3px 2px 1px black;
+    border: none;
+    border-radius: 5px;
+}
+
+.qe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp {
+    margin-bottom: 10px;
+}
+
+.inpe {
+    margin-bottom: 10px;
+}
+
+
+.ew {
+    padding-top: 70px;
+}
+
+.s {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 30px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.container-map {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iframe-map {
+    width: 80%;
+    height: 500px;
+}
+
+.log {
+    padding-left: 300px;
+}
+
+.fra {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+@media (max-width: 375px) {
+    .er {
+        margin-left: -250px;
+        margin-top: 10px;
+    }
+
+    .ul {
+        display: none;
+    }
+
+    .fra {
+        display: none;
+    }
+
+    .es {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .dt {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .dw {
+        display: none;
+    }
+
+    .qe {
+        margin-top: 50px;
+        display: grid;
+        margin-left: 20px;
+    }
+
+    .inpt {
+        margin-top: 10px;
+    }
+
+    .inpe {
+        margin-top: 10px;
+    }
+}

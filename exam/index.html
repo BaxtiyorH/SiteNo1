@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./fonts.css">
+    <script src="./script.js" defer></script>
+    <title>Home</title>
+</head>
+
+<body class="body">
+    <header>
+        <section>
+            <div class="butn">
+                <button class="but_one" id="btn" onclick="changeColor()">Dark</button>
+                <button class="but" id="btnn" onclick="changeColor()">Light</button>
+            </div>
+            <div class="log">
+                <img data-aos="flip-down" class="er" src="./images/logo.svg" alt="">
+                <img class="img" src="./images/logo.svg" width="83px" height="25px" alt="">
+            </div>
+            <ul class="ul">
+                <li>
+                    <a class="a" data-aos="flip-down" href="#">Home</a>
+                </li>
+                <li>
+                    <a data-aos="flip-down" href="./pages/aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a data-aos="flip-down" href="pages/ourwork.html">Our Work</a>
+                </li>
+                <li>
+                    <a data-aos="flip-down" href="./pages/clients.html">Clients</a>
+                </li>
+                <li>
+                    <a data-aos="flip-down" href="./pages/contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section data-aos="fade-down" class="main_section_one" id="box">
+            <div class="texts">
+                <div class="big">
+                    <p class="p_one">We Are The Best Digital Agency For Business</p>
+                </div>
+                <div class="ed">
+                    <p class="p_four">Amet minim mollit deserunt ullamco est sit aliqua dolor <br> do amet sint.
+                        Velit
+                        consequat
+                        duis enim velit mollit. <br> Exercitation veniam consequat sunt nostrud.
+                    </p>
+                    <br>
+                    <br>
+                    <button class="btn">Contact Us</button>
+                </div>
+            </div>
+            <div class="opa">
+                <img class="oppa" src="./images/opa.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function changeColor() {
+            document.querySelector(".btn").style.backgroundColor = "black";
+            document.querySelector(".btn").style.color = "white";
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

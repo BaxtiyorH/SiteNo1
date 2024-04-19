@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.butn {
+    display: grid;
+}
+
+.but_one {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #373737;
+    color: white;
+    font-family: "Work Sans";
+}
+
+.but {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: "Work Sans";
+}
+
+header {
+    position: sticky;
+    background: transparent;
+    top: 0;
+    z-index: 999;
+    background-color: #ffffffc7;
+}
+
+.li a {
+    color: #FF5300;
+}
+
+header section ul li a {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 20px;
+    line-height: 27.72px;
+    align-items: center;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header section ul {
+    padding-top: 37px;
+    padding-bottom: 38px;
+    display: flex;
+    gap: 38px;
+}
+
+.main_section_one {
+    display: flex;
+    justify-content: space-around
+}
+
+.btn {
+    font-family: "Work Sans";
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    top: 493px;
+    left: 136px;
+    box-shadow: 2px 5px 1px 1px rgb(0, 0, 0);
+    border: none;
+    background-color: #FF5300;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgba(49, 214, 132, 0.623);
+    transition: 0.4s;
+    box-shadow: 2px 5px 1px 1px rgb(213, 255, 24);
+    cursor: pointer;
+}
+
+.p_one {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 39px;
+    color: #373737;
+    line-height: 48px;
+}
+
+.p_two {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+    line-height: 24px;
+}
+
+.p_three {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+    line-height: 24px;
+}
+
+.o {
+    padding-top: 40px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #7B7B7B;
+    line-height: 24px;
+}
+
+.img_box_one {
+    padding-top: 60px;
+    display: grid;
+}
+
+.img_box_two {
+    padding-top: 83px;
+    display: grid;
+}
+
+.big {
+    display: flex;
+    gap: 20px;
+}
+
+.all {
+    color: #FF5300;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.gr {
+    color: #7B7B7B;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ui {
+    color: #7B7B7B;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.web {
+    color: #7B7B7B;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hav {
+    color: black;
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 38px;
+    display: grid;
+    justify-content: center;
+}
+
+.weh {
+    padding-left: 540px;
+}
+
+.re {
+    padding-top: 50px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ull {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.img_box {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eh {
+    width: 273px;
+    display: none;
+}
+
+.a {
+    width: 213px;
+    display: none;
+}
+
+.b {
+    width: 214px;
+    display: none;
+}
+
+.d {
+    width: 213px;
+    display: none;
+}
+
+.s {
+    width: 213px;
+    display: none;
+}
+
+.e {
+    width: 213px;
+    display: none;
+}
+
+.f {
+    width: 213px;
+    display: none;
+}
+
+.fd {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .ul li a {
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 83px;
+    }
+
+    .ew {
+        cursor: pointer;
+        padding-top: 45px;
+        width: 162px;
+    }
+
+    .ewe {
+        cursor: pointer;
+        width: 162px;
+        padding-bottom: 250px;
+    }
+
+    .we {
+        cursor: pointer;
+        padding-top: 50px;
+        margin-left: -15px;
+        width: 162px;
+    }
+
+    .wee {
+        cursor: pointer;
+        padding-bottom: 220px;
+        margin-left: -15px;
+        width: 162px;
+    }
+
+    .p_one {
+        padding-left: 20px;
+        font-size: 31px;
+    }
+
+    .p_two {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    .p_three {
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin-left: 20px;
+        width: 160px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .o {
+        padding-left: 30px;
+    }
+
+    .weh {
+        padding-left: 250px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .re {
+        padding-left: 140px;
+    }
+
+    .m {
+        display: none;
+    }
+
+    .a {
+        display: block;
+    }
+
+    .b {
+        display: block;
+    }
+
+    .d {
+        display: block;
+    }
+
+    .s {
+        display: block;
+    }
+
+    .e {
+        display: block;
+    }
+
+    .f {
+        display: block;
+    }
+}
+
+@media (max-width: 380px) {
+    .ul {
+        display: none;
+    }
+
+    .ew {
+        width: 343px;
+    }
+
+    .ewe {
+        margin-top: 10px;
+        width: 343px;
+    }
+
+    .m {
+        width: 343px;
+    }
+
+    .we {
+        margin-top: -390px;
+        margin-left: 2px;
+        width: 343px;
+    }
+
+    .wee {
+        margin-left: 2px;
+        width: 343px;
+        padding-bottom: -100px;
+    }
+
+    .big {
+        padding-left: 8px;
+        display: grid;
+    }
+
+    .main_section_one {
+        display: grid;
+    }
+
+    .p_one {
+        font-size: 25px;
+    }
+
+    .btn {
+        width: 150px;
+        margin-left: 100px;
+        margin-bottom: -20px;
+    }
+
+    .o {
+        padding-left: 110px;
+    }
+
+    .eh {
+        display: block;
+        margin-left: 50px;
+    }
+
+    .weh {
+        display: none;
+    }
+
+    .m {
+        display: block;
+    }
+
+    .img_box {
+        gap: 15px;
+        display: grid;
+    }
+
+    .image {
+        display: grid;
+        gap: 15px;
+    }
+
+    .lk {
+        display: grid;
+    }
+
+    .all {
+        width: 110px;
+        font-size: 15px;
+    }
+
+    .gr {
+        width: 110px;
+        font-size: 15px;
+    }
+
+    .ui {
+        width: 110px;
+        font-size: 15px;
+    }
+
+    .web {
+        width: 110px;
+        font-size: 15px;
+    }
+
+    .ull {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+}

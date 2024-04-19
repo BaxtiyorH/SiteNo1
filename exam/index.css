@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    position: sticky;
+    background: transparent;
+    background-color: #ffffffc7;
+}
+
+.butn {
+    display: grid;
+}
+
+.but_one {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #373737;
+    color: white;
+    font-family: "Work Sans";
+}
+
+.but {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: "Work Sans";
+}
+
+.a {
+    color: #FF5300;
+}
+
+header section ul li a {
+    font-family: "Work Sans";
+    font-weight: 500;
+    color: #373737;
+    font-size: 20px;
+    line-height: 27.72px;
+    align-items: center;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header section ul {
+    padding-top: 37px;
+    padding-bottom: 38px;
+    display: flex;
+    gap: 38px;
+}
+
+.p_one {
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59.33px;
+    text-align: left;
+    color: #373737;
+}
+
+.p_two {
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59.33px;
+    text-align: left;
+    color: #FF5300;
+}
+
+.p_three {
+    font-family: "Work Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59.33px;
+    text-align: left;
+    color: #373737;
+}
+
+.p_four {
+    padding-top: 11px;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: #7B7B7B;
+}
+
+.first {
+    display: flex;
+    gap: 10px;
+}
+
+.texts {
+    padding-top: 176px;
+    padding-left: 135px;
+}
+
+.main_section_one {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    background-color: #FFF7F4;
+}
+
+.opa img {
+    padding-top: 153px;
+}
+
+body {}
+
+.ed button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF5300;
+    font-family: "Work Sans";
+    box-shadow: 2px 5px 1px 1px rgb(0, 0, 0);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.img {
+    display: none;
+}
+
+.ed button:hover {
+    box-shadow: 2px 5px 1px 1px rgb(255, 24, 24);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ed {
+    display: grid;
+}
+
+@media (max-width: 768px) {
+    .img {
+        display: block;
+    }
+
+    .er {
+        display: none;
+    }
+
+    .ul li a {
+        font-size: 16px;
+        color: black;
+    }
+
+    .ul {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .p_one {
+        margin-left: -80px;
+        font-size: 38px;
+    }
+
+    .p_two {
+        font-size: 38px;
+    }
+
+    .p_three {
+        margin-top: -58px;
+        font-size: 38px;
+    }
+
+    .oppa {
+        margin-top: -15px;
+        width: 307px;
+    }
+
+    .big {
+        margin-top: -75px;
+    }
+
+    .first {
+        margin-left: -80px;
+        gap: 5px;
+    }
+
+    .p_four {
+        font-size: 15px;
+        margin-left: -80px;
+    }
+
+    .btn {
+        margin-left: -80px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .oppa {
+        width: 335px;
+        margin-left: -300px;
+    }
+
+    .opa {
+        margin-top: -70px;
+    }
+
+    .er {
+        width: 103px;
+    }
+
+    .log {
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+
+    .ul {
+        display: none;
+    }
+
+    .texts {
+        display: grid;
+        margin-top: 200px;
+        margin-left: -20px;
+    }
+
+    .p_one {
+        font-size: 29px;
+    }
+
+    .p_four {
+        font-size: 14px;
+        padding-left: -55px;
+    }
+
+    .btn {
+        margin-bottom: 30px;
+    }
+}
